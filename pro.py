@@ -118,9 +118,12 @@ def doctor_page():
     Button(doctor_screen, text="view all patients").pack()
     Button(doctor_screen, text="patient1",width=20, height=3,bd=10).pack()
     Button(doctor_screen, text="patient2",width=20, height=3,bd=10).pack()
+    Button(doctor_screen, text="patient3",width=20, height=3,bd=10).pack()
+    Button(doctor_screen, text="BP Graph",width=20, height=3,bd=10).pack()
+    Button(doctor_screen, text="Temp Graph",width=20, height=3,bd=10).pack()
     Button(doctor_screen, text="Search",width=20, height=3,bd=10).pack()
    
-    Button(doctor_screen, text="Back",width=10,height=2,command=home_page).pack()
+    Button(doctor_screen, text="Back",width=10,height=2,command=log_in).pack()
 def patient_page():
     patient_screen=Toplevel(main_screen)
     patient_screen.geometry("500x350")
@@ -128,6 +131,6 @@ def patient_page():
     Button(patient_screen, text="view graph",width=20, height=3,bd=10).pack()
     Button(patient_screen, text="UPDATE",width=20, height=3,bd=10).pack()
    
-    Button(cus_screen, text="Back",width=10,height=2,command=home_page).pack()
+    Button(cus_screen, text="Back",width=10,height=2,command=log_in).pack()
 main_account_screen()
  
