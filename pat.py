@@ -6,7 +6,7 @@ window.title("Doctor page")
  
 window.geometry('550x550')
  
-Label(window, text="VIEW ALL PATIENTS").pack()
+Button(window, text="VIEW ALL PATIENTS",width=20,height=3,bd=10).pack()
  
 Button(window, text="Patient1",width=20, height=3,bd=10).pack()
  
