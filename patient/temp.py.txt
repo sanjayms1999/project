@@ -1,0 +1,20 @@
+from tkinter import *
+ 
+window = Tk()
+ 
+window.title("Health Monitoring system")
+ 
+window.geometry('1024x800')
+
+
+
+b1=Button(window,text="VIEW TEMP",width=20,height=3,bd=10)
+b1.place(x=450,y=300)
+
+
+
+b3=Button(window,text="LOG OUT",width=10,height=2,bd=1)
+b3.place(x=945,y=0)
+b4 = Button(window, text="Back",width=10, height=2,bd=1,command="")
+b4.place(x=2,y=1)
+window.mainloop()
