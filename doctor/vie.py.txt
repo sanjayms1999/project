@@ -1,0 +1,30 @@
+from tkinter import *
+ 
+window = Tk()
+ 
+window.title("Health Monitoring System")
+ 
+window.geometry('1024x800')
+
+Label(window, text="DOCTOR HOME PAGE",font="arial 15 bold").pack()
+
+l2=Label(window,text="Enter patient Id")
+l2.place(x=30,y=100)
+
+e=Entry()
+e.place(x=120,y=100)
+
+b=Button(window,text="OK")
+b.place(x=180,y=120)
+
+b=Button(window,text="VIEW ALL",width=20,height=3,bd=10)
+b.place(x=200,y=300)
+
+
+b1=Button(window,text="LOG OUT",width=10,height=2,bd=2)
+b1.place(x=945,y=0)
+
+
+# btn6 = Button(window, text="Back",width=20, height=3,bd=10,command=log_in).pack()
+
+window.mainloop()
