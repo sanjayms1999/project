@@ -245,7 +245,7 @@ def log_in():
     password_login_entry = Entry(login_screen, textvariable=password_verify, show= '*')
     password_login_entry.place(x=330,y=300)
     Label(login_screen, text="").place(x=300,y=400)
-    Button(login_screen, text="Login", width=20, height=2,bd=10 ,command =patient_page).place(x=450,y=500)
+    Button(login_screen, text="Login", width=20, height=2,bd=10 ,command =doctor_page).place(x=450,y=500)
  
     b1=Button(login_screen, text="Back", width=10, height=2 ,command = home_page)
     b1.place(x=2,y=1)
